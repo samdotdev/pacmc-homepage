@@ -2,6 +2,7 @@ import React from 'react'
 import Hero from '../Hero'
 import Card from '../Card'
 import Tutorial from '../Tutorial'
+import Features from '../Features'
 
 const Main = () => {
   return (
@@ -10,6 +11,7 @@ const Main = () => {
         <Hero />
         <Card />
         <Tutorial />
+        <Features />
       </main>
     </div>
   )

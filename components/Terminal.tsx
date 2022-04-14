@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 const style = {
   wrapper: 'flex flex-wrap items-center justify-center',
   terminal: `flex flex-wrap justify-center m-6`,
-  terminalWindow: `w-[25rem] inverse-toggle h-[15rem] px-5 shadow-2xl text-gray-100 text-sm font-mono subpixel-antialiased bg-gray-800 pt-4 rounded-lg leading-normal overflow-hidden`,
+  terminalWindow: `w-[25rem] inverse-toggle h-[15rem] md:w-[20rem] px-5 shadow-2xl text-gray-100 text-sm font-mono subpixel-antialiased bg-gray-800 pt-4 rounded-lg leading-normal overflow-hidden`,
   terminalButtons: `mb-2 flex`,
   closeButton: `h-3 w-3 bg-red-500 rounded-full`,
   minimizeButton: `ml-2 h-3 w-3 bg-yellow-400 rounded-full`,
