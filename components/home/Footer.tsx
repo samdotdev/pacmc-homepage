@@ -8,7 +8,7 @@ import Link from 'next/link'
 const Footer = () => {
   return (
     <div>
-      <footer className="mt-52 flex h-24 w-full items-center justify-center gap-4 border-t">
+      <footer className="mt-52 flex h-24 w-full items-center justify-center gap-4 border-t ">
         <a href="https://github.com/jakobkmar/pacmc">
           <AiFillGithub />
         </a>

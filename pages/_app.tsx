@@ -4,9 +4,11 @@ import Layout from '../components/Layout'
 
 function MyApp({ Component, pageProps }: any) {
   return (
-    <Layout>
-      <Component {...pageProps} />
-    </Layout>
+    <div className="bg-white dark:bg-[#222222]">
+      <Layout>
+        <Component {...pageProps} />
+      </Layout>
+    </div>
   )
 }
 
